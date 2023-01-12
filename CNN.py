@@ -84,4 +84,7 @@ for layer in model.layers: print(layer.get_config(), layer.get_weights())
 model.summary()
 # %% Guardamos el modelo en la carpeta creada
 model.save('saved_model/digit_classifier')
-# %%
+# %% Código para ir jugando con el GitHub
+a=5
+b=3
+c=a*b
